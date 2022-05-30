@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Travel Buddy</title>
+        <link rel="stylesheet" href="../CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                <picture>
+                    <source media="(max-width: 700px)" srcset="../Imagens/LogoCelular.JPG">
+                    <img class="logoHeader" src="../Imagens/LOGO1.JPG">
+                </picture>
+            </div>
+
+            <div class="headerButtonList">
+                <ul class="headerList">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+                <button class="buttonHeader">SIGN UP FOR FREE</button>
+            </div>
+        </header>
+
+        <section class="mainSection">
+            <h1>An easier trip, every time</h1>
+            <p class="textPc">
+                    Imagine checking one place for all your travel details and getting a heads<br>
+                up as things happen throughout your trip. See why life without Travel Buddy<br>
+                is a distant memory for millions of travelers and sign up today!<br>
+            </p>
+            <p class="textPhone">
+                    Imagine checking one place for all<br> 
+                your travel details and getting a heads<br>
+                up as things happen throughout your trip.<br>
+                See why life without Travel Buddy is a <br>
+                distant memory for millions of travelers <br>
+                and sign up today!<br>
+            </p>
+            <button id='butPhone' class="buttonHeader">SIGN UP FOR FREE</button>
+            <picture>
+                <img Id="bigImg" src="../Imagens/1IMG.JPG">
+            </picture>  
+        </section>
+
+        <section>
+            <div class="travelPlans">
+                <div>
+                <h2>
+                    You handle the booking,<br>
+                    we'll take it from there<br>
+                </h2>
+                <p class="textPc">
+                    Unlike other travel apps, Travel Buddy can organize your travel plans<br>
+                    no matter where you book. Simply forward your confirmation emails<br>
+                    to <b>plans@travelbuddy</b> and in a matter of seconds, Travel Buddy <br>
+                    will create a master itinerary for every trip.<br>
+                </p>
+                <p class="textPhone">
+                    Unlike other travel apps, Travel Buddy can <br>
+                    organize your travel plans no matter where<br>
+                    you book. Simply forward your confirmation <br>
+                    emails to <b>plans@travelbuddy</b>.
+                </p>
+                <button>LEARN HOW IT WORKS</button>
+                </div>
+                 <img class="imgTravelSec" src="../Imagens/2IMG.png">    
+            </div>
+
+            <div class="travelFunctions">
+                <img class="imgTravelSec" src="../Imagens/3IMG.png">
+                <div>
+                    <h2>
+                        Helpful reminders/alerts<br>
+                        so you never miss a beat<br>
+                    </h2>
+                    <p class="textPc">
+                        Packed with features that give you a leg up on changes and<br>
+                        help you make the most of all your trips, Travel Buddy Pro <br>
+                        is where the magic happens.<br>
+                    </p>
+                    <p class="textPhone">
+                        Packed with features that give you a leg up<br>
+                        on changes and help you make the most of all<br>
+                        your trips, Travel Buddy Pro is magic happens.<br>
+                    </p>
+                    <button>MORE ABOUT PRO</button>
+                </div>
+            </div>
+            <div class="travelFunctions">
+                <div>
+                <h2>
+                    Always know where<br>
+                    to be and when<br>
+                </h2>
+                <p class="textPc">
+                    Need a reminder when it's time to leave for the airport?<br>
+                    Not sure where to eat in the airport or near your hotel?<br>
+                    Travel Buddy has you covered.<br>
+                </p>
+                <p class="textPhone">
+                    Need a reminder to leave for the airport?<br>
+                    Not sure where to eat in near your hotel?<br>
+                    Travel Buddy has you covered.<br>
+                </p>
+                <button>DOWNLOAD THE APP</button> 
+                </div>
+                <img Id="appImg" class="imgTravelSec" src="../Imagens/4IMG.png">
+            </div>
+        </section>
+        <section class="signUp">
+            <h1 id="titleSignUp">
+                Try the travel app that<br>
+                keeps up with you <br>
+            </h1>
+            <p>
+                So many trips, so little time. Let Travel Buddy<br>
+                worry about the details, so you don't have to.<br>
+            </p>
+            <form>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+            
+                <label><b>E-mail</b></label>
+                <input type="email" name="email" id="email" placeholder="Type your e-mail here, please..." required>
+                <label><b>Phone</b></label>
+                <input type="text" name="phone" id="phone" placeholder="(00) 00000-0000" required>
+                
+                <script type="text/javascript">
+                    $("#phone").mask("(00) 00000-0000");
+                </script>
+                <button id="buttonSignUp">SIGN UP FOR FREE</button>  
+            </form>   
+            <img id="bigImg" src="../Imagens/5IMG.JPG"> 
+        </section>
+        <footer>
+            <div class="footerTop">
+                <div class="imgfooter">
+                    <img Id="LogoFooter" src="../Imagens/LOGO2.JPG">
+                    <img Id="footerImg" src="../Imagens/6IMG.JPG">
+                </div>
+                <div class="listFooter">
+                    <ul>
+                        <li><b>PRODUCTS</b></li>
+                        <li>Download App</li>
+                        <li>Travel Buddy</li>
+                        <li>Travel Buddy Pro</li>
+                        <li>Travel Buddy for Teams</li>
+                        <li>Help Center</li>
+                    </ul>
+                    <ul>
+                        <li><b>NEWS & RESOURCES</b></li>
+                        <li>Blog</li>
+                        <li>Press</li>
+                        <li>Jobs</li>
+                        <li>User Agreement</li>
+                        <li>Privacy Policy</li>
+                        <li>Security</li>
+                        <li>Cookie Preferences</li>
+                    </ul>
+                    <ul>
+                        <li><b>PARTNERS</b></li>
+                        <li>Developer API</li>
+                        <li>Supported Booking Sites</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footerBot">
+                <div>
+                    <ul class="media">
+                        <li><a href="https://twitter.com/explore" target="blanck"><img src="../Icones/IconeTW.JPG"></a></li>
+                        <li><a href="https://www.instagram.com/" target="blanck"><img src="../Icones/IconeINS.JPG"></a></li>
+                        <li><a href="https://www.facebook.com/" target="blanck"><img src="../Icones/iconeFAC.JPG"></a></li>
+                        <li><a href="https://www.linkedin.com/feed/" target="blanck"><img src="../Icones/IconeLink.JPG"></a></li>
+                        <li><a href="https://br.pinterest.com/" target="blanck"><img src="../Icones/IconePin.JPG"></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="copy">
+                        © 2003-2022 Travel Buddy. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
