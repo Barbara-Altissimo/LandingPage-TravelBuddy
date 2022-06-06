@@ -1,8 +1,8 @@
 # Travel Buddy ✈️
 
-## Projeto mulheres no código 
+## Descrição do projeto
 
-Landing page responsiva usando HTML5 e CSS3. 
+A criação da Landing Page foi o primeiro desafio do projeto Mulheres no código. A idéia do desafio era criar a Landing page do aplicativo Travel Buddy, e em seguida trabalhar a responsividade da página. 
 
 ![Animação (1)](https://user-images.githubusercontent.com/106499228/172194680-3daae206-0313-4db4-afee-dd0610410bcf.gif)
 
