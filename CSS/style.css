@@ -64,7 +64,7 @@ button:hover {
     font-family: Oxygen;
     justify-content: center;
     text-align: center;  
-    padding: 60px;
+    padding: 30px 60px 60px 60px;
     font-size: 15px;
     line-height: 25px;
 }
@@ -78,7 +78,7 @@ h1 {
     line-height: 50px;
 }
 #bigImg {
-    width: 75%;
+    width: 70%;
 }
 
 .travelPlans {
